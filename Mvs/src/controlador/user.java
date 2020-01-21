@@ -5,10 +5,33 @@
  */
 package controlador;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Sony Vaio
  */
 public class user {
+    ArrayList listaPersonas = new ArrayList<String>();
     
+    public String agregarPersona(
+            String nombre
+    ){
+        listaPersonas.add(nombre);
+        return "Persona agregada correctamente,"+nombre;
+        
 }
+    
+    public String listaPersonas(){
+        String lista="";
+        
+        for (int i=0; i<listaPersonas.size();i++ ){
+            System.out.println(listaPersonas.get(1));
+            lista+= listaPersonas.get(i).toString()+"n";
+            return lista;
+        }
+        listaPersonas.get(1);
+        return"";
+    }
+}
+
