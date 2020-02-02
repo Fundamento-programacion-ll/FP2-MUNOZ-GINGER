@@ -16,6 +16,7 @@ public class Herencia {
      */
     public static void main(String[] args) {
       Perro p= new Perro(10,"Perro","h","perro",10);
+      p.datosPerro();
     }
     
 }
