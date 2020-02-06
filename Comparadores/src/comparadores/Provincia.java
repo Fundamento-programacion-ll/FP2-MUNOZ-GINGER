@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package figuras1;
-
-import java.awt.Graphics;
-import javax.swing.JPanel;
+package comparadores;
 
 /**
  *
  * @author Sony Vaio
  */
-public  abstract class Figuras1 extends JPanel  {
-    public abstract void dibujo(Graphics g);
-}
-
-
+public class Provincia {
     
-
+}

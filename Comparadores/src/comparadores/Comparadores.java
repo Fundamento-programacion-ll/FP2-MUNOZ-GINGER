@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package figuras1;
+package comparadores;
 
 /**
  *
  * @author Sony Vaio
  */
-public class Circulo  extends Punto{
-     private double radio;
+public class Comparadores {
 
-    public Circulo() {
-    }
-
-    public Circulo(double radio) {
-        this.radio = radio;
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }
