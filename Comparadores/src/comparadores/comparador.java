@@ -11,11 +11,25 @@ import java.util.Comparator;
  *
  * @author Sony Vaio
  */
-public class comparador implements Comparator<Object> {
+public class comparador implements Comparator {
+    
+    int comprarNombre;
+    Provincia provincia1,provincia2;
+    
+            
 
     @Override
     public int compare(Object o1, Object o2) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        provincia1 = (Provincia)o1;
+        provincia2 = (Provincia)o2;
+        
+        if(provincia1.getNumeroHabitantes()>provincia2.getNumeroHabitantes()){
+            comprarNombre=3;
+        }else{
+            comprarNombre = 1;
+        }
+       
+        return comprarNombre;
     }
     
 }
