@@ -24,6 +24,9 @@ public class Comparadores {
             p.ordenarPornombreprov();
         salida += "Lista Provincias: \n"+p.toString();
         System.out.println(salida);
+         p.ordenarPorNumero();
+        salida += "Lista Provincias: \n"+p.toString();
+        System.out.println(salida);
     }
     
 }
